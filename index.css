@@ -1,0 +1,44 @@
+*{
+ box-sizing: border-box;
+margin: 0px;
+font-family: cursive;
+
+
+}
+.nav-item{
+
+font-size: 20px;
+color: lightgreen;
+font-weight: bolder;
+
+}
+.logo
+{
+	color: red;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.section-menu
+{
+	position: relative;
+	top: 100px;
+}
+.section-menu div
+{
+	height: 400px;
+	width: 100%;
+	border: 5px solid red;
+
+}
+.navbar
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+	width: 100%;
+}
+html
+{
+	scroll-behavior: smooth;
+}

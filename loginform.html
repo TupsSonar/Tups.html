@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LOGIN FORM</title>
+	<style type="text/css">
+		.mdiv
+		{
+			height: 100vh;
+			width: 100%;
+			background-image: url(https://i.pinimg.com/originals/66/9f/9e/669f9e9981a7cb4bfe804c72fb79dbdc.gif);
+			background-repeat: no-repeat;
+			background-size: fixed;
+			top: 0px;
+			left: 0px;
+		}
+		.ignfrm
+		{
+			width: 200px;
+			height: 200px;
+			margin: 15% 35%;
+		}
+		input
+		{
+			width: 95%;
+			margin-top: 10px;
+			height: 20px;
+			background-color: transparent;
+			border: none;
+			border-bottom: 2px solid white;
+			color: white;
+			text-align: center;
+			font-weight: bolder;
+		}
+		input:focus
+		{
+			outline: none;
+		}
+		.head
+		{
+			color: white;
+			letter-spacing: 4px;
+			font-size: Elephant;
+			font-weight: bolder;
+		}
+		input[type="button"]
+		{
+			border: none;
+			background-color: white;
+			height: 30px;
+			margin-bottom: 10px;
+			transition-duration: 1s;
+		}
+		input[type="button"]:hover
+		{
+			background-color: transparent;
+			color: white;
+			border: 2px solid white;
+			transform: scale(1.1);
+			cursor: pointer;
+		}
+		a
+		{
+          text-decoration: none;
+          color: white;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="mdiv">
+		<div  class="lgnform" align="center">
+			<form autocomplete="off">
+				<h2 class="head">LOGIN</h2>
+				<input type="text" name="username" placeholder="Username" class="ip1">
+				<input type="password" name="pwd" placeholder="password" style="margin-bottom: 10px;" class="ip1">
+				<span> <a href="#"></a> Forgot password ?</span>
+				<input type="button" name="lgn" value="LOGIN">
+				<span> <a href="#">Create Account</a> </span>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
